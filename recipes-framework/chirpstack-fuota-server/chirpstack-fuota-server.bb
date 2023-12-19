@@ -7,14 +7,14 @@ SRC_URI = "https://artifacts.chirpstack.io/downloads/chirpstack-fuota-server/chi
 SRC_URI[md5sum] = "fe6d572fa574b36536dc5a4ae5710d4c"
 SRC_URI[sha256sum] =  "3403f06ce15235b9aec3b14fa3fe0c359012190cf2df603a3b2256ec99925511"
 
- 
+
 SRC_URI += "file://chirpstack-fuota-server.service"
 SRC_URI += "file://chirpstack-fuota-server.toml"
 
 INSANE_SKIP:${PN} += "already-stripped"
 
 S = "${WORKDIR}"
- 
+
 do_install:append() {
 	install -d ${D}${bindir}
 	install -m 0755 chirpstack-fuota-server ${D}${bindir}

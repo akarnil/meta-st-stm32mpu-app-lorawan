@@ -1,11 +1,11 @@
 DESCRIPTION = "chirpstack gateway bridge"
 HOMEPAGE = "https://www.chirpstack.io/"
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=99e425257f8a67b7efd81dc0009ed8ff"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=bc4546f147d6f9892ca1b7d23bf41196"
 
-SRC_URI = "https://artifacts.chirpstack.io/downloads/chirpstack-gateway-bridge/chirpstack-gateway-bridge_3.14.5_linux_armv7.tar.gz"
-SRC_URI[md5sum] = "dda678309cb76c4b8ca3a87ed16434cd"
-SRC_URI[sha256sum] = "64763a304b3f960dbf47a679d484cf1d3985e7dbe70ed8eca2ddb60818eb7a14"
+SRC_URI = "https://artifacts.chirpstack.io/downloads/chirpstack-gateway-bridge/chirpstack-gateway-bridge_4.0.10_linux_armv7.tar.gz"
+SRC_URI[md5sum] = "17071b0544c5ec14b10ccbb9c91a988a"
+SRC_URI[sha256sum] = "9229263c08a9a5c7cd814474783a3c4e07df1039c1642b8831971f39ef0d87ce"
 SRC_URI += "file://chirpstack-gateway-bridge.service"
 SRC_URI += "file://chirpstack-gateway-bridge.toml"
 
